@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>name-sorter</name>
+    </assembly>
+    <members>
+        <member name="T:name_sorter.PrintNames">
+            <summary>
+            Class performs printing functions for sorter, outputting SortedNames 
+            to console and writing its contents to a text file.
+            </summary>
+        </member>
+        <member name="F:name_sorter.PrintNames.sortedNames">
+            <summary>
+            Holds list of sortedNames
+            </summary>
+        </member>
+        <member name="M:name_sorter.PrintNames.#ctor">
+            <summary>
+            Constructor for PrintArray class
+            </summary>
+        </member>
+        <member name="M:name_sorter.PrintNames.printSortedArray">
+            <summary>
+            Main method for PrintArray. Writes sortedNames to text and
+            console output
+            </summary>
+        </member>
+        <member name="M:name_sorter.PrintNames.setSortedNames(System.Collections.Generic.List{System.String})">
+            <summary>
+            Setter for sortedNames variable
+            </summary>
+            <param name="sorted"></param>
+        </member>
+        <member name="T:name_sorter.Program">
+            <summary>
+            Program to take an unsorted list of names and return
+            a sorted list from surname to given names and output
+            the result to console and a .txt file in the working
+            directory.
+            </summary>
+        </member>
+        <member name="M:name_sorter.Program.Main(System.String[])">
+            <summary>
+            Takes .txt file as argument
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:name_sorter.SortNames">
+            <summary>
+            SortArray accepts an unsorted list and sorts,
+            saving results to class variable
+            </summary>
+        </member>
+        <member name="M:name_sorter.SortNames.#ctor">
+            <summary>
+            Constructor for SortArray Class
+            </summary>
+        </member>
+        <member name="M:name_sorter.SortNames.performSort">
+            <summary>
+            Takes namesForSorting, splits each line into seperate strings,
+            performs sort by last name then by given names in reverse,
+            adds sorted names to namesSorted
+            </summary>
+        </member>
+        <member name="M:name_sorter.SortNames.setnamesForSorting(System.Collections.Generic.List{System.String})">
+            <summary>
+            Setter for unSortedNames variable
+            </summary>
+            <param name="unsorted"></param>
+        </member>
+        <member name="M:name_sorter.SortNames.getnamesSorted">
+            <summary>
+            Setter for unortedNames variable
+            </summary>
+        </member>
+    </members>
+</doc>
