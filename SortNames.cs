@@ -53,7 +53,7 @@ namespace name_sorter
         }
 
         /// <summary>
-        /// Setter for unortedNames variable
+        /// Getter for unortedNames variable
         /// </summary>
         public List<string> getnamesSorted()
         {
